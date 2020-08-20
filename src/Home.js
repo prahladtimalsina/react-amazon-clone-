@@ -70,7 +70,7 @@ function Home() {
           rating={5}
           image="https://m.media-amazon.com/images/I/61vjUCzQCaL._AC_UY218_.jpg"
         />
-           <Product
+        <Product
           id="784512"
           title="SanDisk 400GB Ultra microSDXC UHS-I Memory Card with Adapter - 100MB/s, "
           price={11.96}
