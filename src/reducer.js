@@ -7,8 +7,13 @@ export const getBasketTotal = (basket)=>
 basket?.reduce((amount,item)=>item.price+ amount,0)
 
 const reducer = (state, action) =>{
-  console.log(action);
+  // console.log(action);
   switch (action.type) {
+    case 'SET_USER':
+      return {
+        ...state, //it meangs current state 
+        user:action.user
+      }
     case "ADD_TO_BASKET":
       //logic for adding item to the basket
       // return {state}
